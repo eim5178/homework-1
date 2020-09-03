@@ -105,5 +105,5 @@ elif course3_grade == 'F' :
 else:
   gp_course3 = 0.0
   print (f"Grade point for course 3 is: {gp_course3}")
-GPA = (gp_course1 * course1_credit + gp_course2 * course2_credit + gp_course3 * course3_credit)/(course1_credit + course2_credit + course3_grade)
+GPA = float(gp_course1 * course1_credit + gp_course2 * course2_credit + gp_course3 * course3_credit)/(course1_credit + course2_credit + course3_grade)
 print(f"Your GPA is: {GPA}")
